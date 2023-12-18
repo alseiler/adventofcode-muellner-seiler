@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b068dd82-1da6-4c60-9035-be3e351442d3" name="Changes" comment="Day 1 done">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdventOfCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputs/day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day1-part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +40,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.Day1Kt.executor": "Run",
+    "Kotlin.Day1_part2Kt.executor": "Run",
+    "Kotlin.Day2Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,6 +78,7 @@
       <updated>1702739662342</updated>
       <workItem from="1702739663376" duration="12004000" />
       <workItem from="1702801254654" duration="8237000" />
+      <workItem from="1702887024148" duration="18452000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,8 @@ import java.io.File
 
 fun main(args: Array<String>) {
 
-    val input = File("C:/Users/alexa/Desktop/FH/ASD/Advent-Of-Code/Input/Day1.txt").readText()
-    val values = input.split("\n")
+    val input = File("inputs/day1.txt").readText()
+    val values = input.split("\r\n")
 
     fun getCalibrationValues(toCheck: String): Int {
         val tmp = toCheck.replace("[a-zA-Z]".toRegex(), "")
