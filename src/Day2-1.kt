@@ -2,8 +2,8 @@ import java.io.File
 
 fun main(args: Array<String>) {
 
-    val targetValues = listOf(12, 13, 14)
     val input = File("inputs/day2.txt").readText()
+    val targetValues = listOf(12, 13, 14)
 
     val games = input.split("\r\n")
 
