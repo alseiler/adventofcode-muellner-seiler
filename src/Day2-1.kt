@@ -3,38 +3,28 @@ import java.io.File
 fun main(args: Array<String>) {
 
     val input = File("inputs/day2.txt").readText()
-    val targetValues = listOf(12, 13, 14)
 
     val games = input.split("\r\n")
 
-    println("\nTarget values:\n$targetValues")
+    // Regex that matches strings that do not contain the word "red" preceded by numbers 13 or higher, "green" by numbers 14 or higher, or "blue" by numbers 15 or higher
+    val regexCheckGamesForPlayability = "^(?!.*\\b(?:1[3-9]|[2-9]\\d|[1-9]\\d{2,}) red\\b|.*\\b(?:1[4-9]|[2-9]\\d|[1-9]\\d{2,}) green\\b|.*\\b(?:1[5-9]|[2-9]\\d|[1-9]\\d{2,}) blue\\b).*".toRegex()
 
-    println("\nGames:\n$games")
-    println("First game: " + games[0])
-
-    val sets = games[0].split(";")
-    println("\nSets:\n$sets")
-    println("First set: " + sets[0])
-
-    val setsNumbers = sets[0].replace("[ a-zA-Z]".toRegex(), "").substringAfter(":") // re: replaces all letters with empty string and keeps only text after ":"
-    println("\nFirst set with only numbers:\n${setsNumbers.split(",")}")
-
-    val gameValues = setsNumbers.split(",").map { it.toInt() }
-    println("\nGameValues:\n$gameValues")
-
-    var gameCounter = 0
-    var setCounter = 0
-    for (j in 1..1) {
-        var colorCounter = 0
-        for (i in 0..<gameValues.count())
-            if (gameValues[i] <= targetValues[i]) {
-                colorCounter += 1
-            }
-        if (colorCounter == gameValues.count()) {
-            println("\nSet ${sets[0]} can be played.")
-        } else {
-            println("\nSet ${sets[0]} can't be played.")
+    val listOfPlayableGames: MutableList<Any> = mutableListOf()
+    for (game in games) {
+        if (game.matches(regexCheckGamesForPlayability)) {
+            listOfPlayableGames.add(game)
         }
     }
-}
+    println("\nPlayable games:\n$listOfPlayableGames")
 
+    val regexGetGameIDs = "\\d+".toRegex()
+
+    // Iterate over the list and replace each string with the first number found
+    val listOfPlayableGameIDs = listOfPlayableGames.map { str ->
+        regexGetGameIDs.find(str.toString())?.value ?: "" // Replace with the first number, or an empty string if no number is found
+    }
+
+    val sumOfPlayableGameIDs = listOfPlayableGameIDs.sumOf { it.toString().toInt() }
+    println(sumOfPlayableGameIDs)
+
+}
