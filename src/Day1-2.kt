@@ -23,5 +23,8 @@ fun main(args: Array<String>) {
     val sumOfCalibrationValues = (values.map { getCalibrationValues(it) }).sum()
     println(sumOfCalibrationValues)
 
+
+
+
 }
 

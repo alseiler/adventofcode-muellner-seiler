@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b068dd82-1da6-4c60-9035-be3e351442d3" name="Changes" comment="Day 1 done">
+      <change afterPath="$PROJECT_DIR$/src/Day2-2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_09_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_09_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day2-1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2-1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day2-1_test.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1-2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1-2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +42,10 @@
     &quot;Kotlin.Day1Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day1_2Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day1_part2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Day2_1Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day2_1_test2Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day2_1_testKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Day2_2Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day3_1Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -85,7 +89,15 @@
       <workItem from="1702801254654" duration="8237000" />
       <workItem from="1703060534367" duration="20611000" />
       <workItem from="1703184154204" duration="6031000" />
-      <workItem from="1703237494427" duration="5487000" />
+      <workItem from="1703237494427" duration="5671000" />
+      <workItem from="1703351347791" duration="11000" />
+      <workItem from="1703444070590" duration="3460000" />
+      <workItem from="1703526188035" duration="1757000" />
+      <workItem from="1703605847456" duration="1533000" />
+      <workItem from="1703671473737" duration="3115000" />
+      <workItem from="1703770867098" duration="2413000" />
+      <workItem from="1703842185455" duration="3821000" />
+      <workItem from="1703877970668" duration="3371000" />
     </task>
     <servers />
   </component>
