@@ -25,8 +25,8 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
+    &quot;associatedIndex&quot;: 0
+    }</component>
   <component name="ProjectId" id="2Zd6UxTLzMElAuE7rpnvTDFPoqT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,7 +34,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
+    &quot;keyToString&quot;: {
     &quot;Kotlin.Day1Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day1_2Kt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Day1_part2Kt.executor&quot;: &quot;Run&quot;,
@@ -59,8 +59,8 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+    }
+    }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="open AdventOfCode" />
